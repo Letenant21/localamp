@@ -1,10 +1,11 @@
 #!/bin/bash
 
-for i in {1..60}
+echo -ne "Waiting for MySql..."
+while !(mysql 2> /dev/null)
 do
-  echo -ne "Waiting for MySql...$i/60 \033[0K\r"
+  echo -ne "."
   sleep 1
 done
-echo ''
+echo 'Ready'
 mysql -uroot -e "CREATE DATABASE dbase;CREATE USER 'duser'@'%' IDENTIFIED BY '123';GRANT ALL PRIVILEGES ON dbase.* TO 'duser'@'%';";
 echo 'Mysql DB has created.'
