@@ -7,3 +7,4 @@ do
 done
 echo ''
 mysql -uroot -e "CREATE DATABASE dbase;CREATE USER 'duser'@'%' IDENTIFIED BY '123';GRANT ALL PRIVILEGES ON dbase.* TO 'duser'@'%';";
+echo 'Mysql DB has created.'
