@@ -1,1 +1,1 @@
-FROM mattrayner/lamp:latest-1804
+FROM mattrayner/lamp:latest-1604
