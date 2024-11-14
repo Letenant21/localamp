@@ -1,4 +1,4 @@
-cd ../../
+cd ../
 dir=${PWD##*/}
 container=$dir'_amp_1'
 
