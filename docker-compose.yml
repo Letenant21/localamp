@@ -6,8 +6,8 @@ services:
     env_file: ".env"
     volumes:
       - ./src/:/var/www/html
-      - ./dev/local/internal_build.sh:/home/build.sh
-      - ./dev/local/apache2.conf:/etc/apache2/apache2.conf
+      - ./dev/internal_build.sh:/home/build.sh
+      - ./dev/apache2.conf:/etc/apache2/apache2.conf
     ports:
       - ${PORT_WEB}:80
       - ${PORT_DB}:3306
