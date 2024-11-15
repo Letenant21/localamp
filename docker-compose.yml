@@ -11,5 +11,6 @@ services:
     ports:
       - ${PORT_WEB}:80
       - ${PORT_DB}:3306
+      - ${PORT_REDIS}:6379
     restart: always
   
