@@ -1,5 +1,5 @@
 Среда для локальной разработки, основанная на
-<a href="https://hub.docker.com/r/mattrayner/lamp"><b>mattrayner/lamp:latest-1604</b></a>
+<a href="https://hub.docker.com/r/mattrayner/lamp"><b>mattrayner/lamp:latest-1604-php7</b></a>
 
 Установка:
 <ol>
