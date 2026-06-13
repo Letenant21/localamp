@@ -4,7 +4,7 @@
 Установка:
 <ol>
 <li>Сконировать</li>
-<li>Сделать копию .env.example в .env</li>
+<li>Сделать копию .env.example в .env - cp .env.example .env</li>
 <li>В файле .env установить желаемые настройки</li>
 <li>Запустить dev/local/create.sh (будет создана mysql БД dbase, duser:123)</li>
 <li>В папку src (которая создается автоматически в п.4) склонировать код</li>
