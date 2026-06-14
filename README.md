@@ -3,7 +3,7 @@
 
 Установка:
 <ol>
-<li>Сконировать</li>
+<li>Склонировать</li>
 <li>Сделать копию .env.example в .env - cp .env.example .env</li>
 <li>В файле .env установить желаемые настройки</li>
 <li>Запустить dev/local/create.sh (будет создана mysql БД dbase, duser:123) - cd dev/local/ ./create.sh</li>
